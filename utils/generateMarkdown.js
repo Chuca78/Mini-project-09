@@ -1,6 +1,5 @@
 
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -21,76 +20,54 @@ function generateMarkdown(data) {
   - [Copyright](#copyright)
 
   ## Installation
-  For installation of the dependencies, please run the following command in the terminal
+  For installation of the dependencies, please run the following command in the terminal:
   \`\`\`
   ${data.to_install}
   \`\`\`
+
   ## Usage
-  To start the application, please type the following command in the terminal
+  To start the application, please type the following command in the terminal:
   \`\`\`
   ${data.to_use}
   \`\`\`
 
-  // todo: usage here
-  ##Usage
+  ## Credits
+  ${data.credits}
 
-
-
-  // todo: is this section required???
-  // todo: this should be badges
-  ## Packages Used
+  ## Badges
   ${data.packages_used}
-  ## User Story
-  ${data.user_story}
+ 
   ## Technologies used
-  // todo: fix the default images
-  // todo: add/remove packages and languages
-  ![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
-  ![Bootstrap](https://img.shields.io/badge/Bootstrap-blueviolet?style=for-the-badge&logo=bootstrap)
-  ![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
-  ![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
-  ![JQUERY](https://img.shields.io/badge/jquery-purple?style=for-the-badge&logo=jquery)
-  ![CSS](https://img.shields.io/badge/css-darkgreen?style=for-the-badge&logo=css3)
-  ![SQL](https://img.shields.io/badge/MYSQL-darkblue?style=for-the-badge&logo=sqlite)
-  ![MongoDB](http://img.shields.io/badge/mongo-dB-black?style=for-the-badge&logo=mongodb)
+  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+  ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+  ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![JQUERY](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+  ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![SQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+  ![MongoDB](	https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
   ![NPM](http://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
-  ![React](http://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
-  ![Heroku](http://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
-  ![webpack](http://img.shields.io/badge/webpack-grey?style=for-the-badge&logo=webpack)
-  ![EXPRESS.js](http://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+  ![EXPRESS.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
   
-  ## Applied Programming Skills
-  ${data.skills_list}
-  ## Key files in the repository
-  ${data.file_list}
-
-  
-  // TODO: Create a function that returns a license badge based on which license is passed in
-  // If there is no license, return an empty string
-  // function renderLicenseBadge(license) {}
-  
-  // TODO: Create a function that returns the license link
-  // If there is no license, return an empty string
-  // function renderLicenseLink(license) {}
-  
-  // TODO: Create a function that returns the license section of README
-  // If there is no license, return an empty string
-  // function renderLicenseSection(license) {}
-
+  ## Features
+  ${data.features}
 
   ## License 
   ![License badge](https://img.shields.io/badge/license-${data.license}-blue.svg)
-  ## Credits and Copyright 
+
+  ## Copyright 
   ${data.copyright}
 
   ## How to Contribute
   ${data.programmer}<br />
   ${data.author_position}<br />
-  [${data.gh_username.toUpperCase()}](https://github.com/${data.gh_username}) ![Github](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
+  [${data.gh_username.toUpperCase()}](https://github.com/${data.gh_username}) ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)<br />
   ${data.email}
 
   ## Testing
-  For running the tests on application, please run the following commad
+  For running the tests on application, please run the following command:
   \`\`\`
   ${data.to_test}
   \`\`\`
