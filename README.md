@@ -2,24 +2,21 @@
 
 ## Description
 
-This project is a command line interface application that prompts the user to answer a series of brief questions, regarding a project and then generates a high quality readme file using Node.js and using the package inquirer.
+This project is a command line interface application that prompts the user to answer a series of questions and then generates a high quality readme file using Node.js and using the package inquirer.
 
 ## Table of Contents
 
-- [User Story](#user-story)
-- [Technologies used](#technologies-used)
-- [Key files in the repository](#key-files-in-the-repository)
-- [Packages used](#packages-used)
-- [Programming Competencies](#programming-competencies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Testing](#testing)
+- [Credits](#credits)
+- [Badges](#badges)
 - [License](#license)
 - [Copyright](#copyright)
+- [Testing](#testing)
 
 ## Installation
 
-For installation of the dependencies, please run the following command in the terminal
+For installation of the dependencies, please run the following command in the terminal:
 
 ```
 npm i inquirer@8.2.4
@@ -27,21 +24,29 @@ npm i inquirer@8.2.4
 
 ## Usage
 
-To start the application, please type the following command in the terminal
+To start the application, please type the following command in the terminal:
 
 ```
 node index
 ```
 
+## Credits
+
+N/A
+
 ## Badges
 
-![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
-![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
-![NPM](http://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
 
 ## Features
 
 This project use the following programing skills to create a quality READme: node.js, inquirer
+
+## License
+
+![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## How to Contribute
 
@@ -54,7 +59,7 @@ t.fleck@hotmail.com
 
 Copyright 2022 Tim Fleck
 
-## Tests
+## Testing
 
 For running the tests on application, please run the following command:
 

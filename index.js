@@ -26,7 +26,7 @@ const questions = [
     type: 'editor',
     name: 'about_project',
     message: 'Please enter details about your project in the notepad',
-    default: 'This project is a command line interface application that prompts the user to answer a series of questionss and then generates a high quality readme file using Node.js and using the package inquirer.'
+    default: 'This project is a command line interface application that prompts the user to answer a series of questions and then generates a high quality readme file using Node.js and using the package inquirer.'
     },
 
     // Installation 
@@ -53,7 +53,6 @@ const questions = [
     default: 'The list of third party components used in this project, with due credits to their authors and license terms.'
     },
 
-
     // License
     {
     type: 'checkbox',
@@ -61,35 +60,6 @@ const questions = [
     message: 'Please make a selection for license',
     choices: 
     ['MIT','APACHE 2.0','GPL 3.0','BSD 3','None'],
-    },
-
-    // Badges for technologies
-    {
-    type: 'checkbox',
-    name: 'techs_used',
-    message: 'Please check mark if any of the technologies were used in this project',
-    choices: [
-    'HTML', 
-    'CSS', 
-    'Bootstrap', 
-    'Node.js', 
-    'Javascript', 
-    'jQuery',
-    'React',
-    'Express.js', 
-    'Heroku', 
-    'Git/Bash-Version control', 
-    'Mongo DB',
-    'MySQL',
-    ],
-    },
-
-    // list of features of this project
-    {
-    type: 'editor',
-    name: 'features',
-    message: 'Please highlight any features or skills utilized in this project',
-    default:'This project use the following programing skills to create a quality READme: node.js, inquirer'
     },
 
     // How to contribute section
