@@ -59,7 +59,7 @@ const questions = [
     name: 'license',
     message: 'Please make a selection for license',
     choices: 
-    ['MIT','APACHE 2.0','GPL 3.0','BSD 3','None'],
+    ['MIT','APACHE','GNU','BSD','None'],
     },
 
     // How to contribute section
