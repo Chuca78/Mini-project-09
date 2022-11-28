@@ -29,6 +29,8 @@ To start the application, please type the following command in the terminal:
 ```
 node index
 ```
+[README_generator.webm](https://user-images.githubusercontent.com/97859682/204353263-3b061827-31be-45ca-b69f-ab89953d468c.webm)
+
 
 ## Credits
 
