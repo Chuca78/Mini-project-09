@@ -29,8 +29,8 @@ To start the application, please type the following command in the terminal:
 ```
 node index
 ```
-[README_generator.webm](https://user-images.githubusercontent.com/97859682/204353263-3b061827-31be-45ca-b69f-ab89953d468c.webm)
 
+[README_generator.webm](https://user-images.githubusercontent.com/97859682/204353263-3b061827-31be-45ca-b69f-ab89953d468c.webm)
 
 ## Credits
 
@@ -55,7 +55,7 @@ This project use the following programing skills to create a quality READme: nod
 Tim Fleck<br />
 Full-Stack Developer<br />
 [CHUCA78](https://github.com/Chuca78) ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)<br />
-t.fleck@hotmail.com
+tfleck78@gmail.com
 
 ## Copyright
 
